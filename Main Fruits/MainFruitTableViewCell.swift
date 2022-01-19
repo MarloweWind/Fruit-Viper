@@ -27,6 +27,7 @@ class MainFruitTableViewCell: UITableViewCell {
     }
     
     func UISetUp() {
+        contentView.backgroundColor = .orange
         fruitNameLabel.translatesAutoresizingMaskIntoConstraints = false
         fruitNameLabel.font = UIFont(name: "HelveticaNeue", size: 17)
         fruitNameLabel.textColor = .black

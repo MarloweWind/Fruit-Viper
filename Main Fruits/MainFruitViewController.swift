@@ -30,6 +30,7 @@ class MainFruitViewController: UIViewController, MainFruitViewProtocol, UITableV
         tableView.rowHeight = 48
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.backgroundColor = .orange
         view.addSubview(tableView)
     }
     
