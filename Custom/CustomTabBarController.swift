@@ -32,7 +32,7 @@ class CustomTabBarController: UITabBarController {
     
     func setupViewControllers() {
           viewControllers = [
-              createNavController(for: MainFruitViewController(), title: NSLocalizedString("Fruit", comment: ""), image: UIImage(systemName: "applelogo")!),
+              createNavController(for: MainFruitViewController(), title: NSLocalizedString("Fruits", comment: ""), image: UIImage(systemName: "applelogo")!),
               createNavController(for: MainBerriesViewController(), title: NSLocalizedString("Berries", comment: ""), image: UIImage(systemName: "circle.grid.cross")!),
           ]
       }
