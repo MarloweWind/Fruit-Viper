@@ -48,9 +48,9 @@ extension MainBerriesViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-//        let berryCell = berry[indexPath.row]
-//        let destinationViewController = FruitDetailsViewController(fruitImage: fruitCell.fruitImageUrl)
-//        presenter.rowSelected(destinationViewController: destinationViewController)
+        let berryCell = berry[indexPath.row]
+        let destinationViewController = BerryDetailsViewController(berryImage: berryCell.berryImageUrl)
+        presenter.rowSelected(destinationViewController: destinationViewController)
     }
     
 
